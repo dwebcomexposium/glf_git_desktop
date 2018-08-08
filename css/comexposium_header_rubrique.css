@@ -1,0 +1,46 @@
+.rub-header {
+  position: relative;
+  margin-bottom: 80px;
+  margin-top: 0 !important;
+}
+.rub-header img.at-illust {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: none;
+  max-width: initial;
+}
+.rub-header .inside {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.rub-header .inside h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 50%;
+  width: 100%;
+  padding: 1em 0 0;
+  margin: 0;
+  border: none;
+  color: white;
+  font-family: "Montserrat Light";
+  font-size: 48px;
+  font-size: 2.91vw;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.rub-header .inside p {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  width: 100%;
+  padding: 0 10%;
+  color: white;
+  font-family: "Montserrat Light";
+  font-size: 30px;
+  font-size: 1.82vw;
+  font-weight: normal;
+}

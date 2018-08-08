@@ -1,0 +1,51 @@
+.block.error-page {
+  background: url(/theme/comexposium_desktop/img/404.png) center center no-repeat;
+  background-size: cover;
+  /* min-height: 780px; */
+}
+.block.error-page .inside {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 9vw;
+  box-sizing: border-box;
+}
+@media all and (max-width: 1290px) {
+  .block.error-page .inside {
+    padding-left: 5vw;
+  }
+}
+.block.error-page h1.main-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Light";
+  font-size: 48px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  border: none;
+}
+.block.error-page .intro {
+  margin-top: 45px;
+  color: white;
+  font-family: "Avenir Light";
+  font-size: 18px;
+  line-height: 24px;
+}
+.block.error-page .intro a {
+  margin-top: 85px;
+  display: inline-block;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  line-height: 49px;
+  padding: 0 20px;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.block.error-page .intro a:hover, .block.error-page .intro a:focus {
+  color: black;
+  border-color: black;
+}

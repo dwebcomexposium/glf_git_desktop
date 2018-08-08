@@ -1,0 +1,128 @@
+.site-footer {
+  background-color: #f4f4f5;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .site-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.site-footer:after {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 153px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+.site-footer .inside {
+  padding-top: 50px;
+  display: block;
+}
+.site-footer .inside > * {
+  display: block;
+}
+.site-footer .quicklinks {
+  float: left;
+  width: 235px;
+  margin-right: 20px;
+}
+.site-footer .quicklinks .block-title {
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat ExtraBold';
+  border-bottom: 0;
+  display: block;
+  padding-bottom: 20px;
+  position: relative;
+}
+.site-footer .quicklinks .block-title:after {
+  margin-top: 5px;
+  display: block;
+  content: "";
+  width: 35px;
+  height: 4px;
+  background-color: #9d1c48;
+  position: absolute;
+  bottom: 10px;
+  left: -14px;
+}
+.site-footer .quicklinks + .quicklinks {
+  margin-left: 20px;
+}
+.site-footer .ql-list .ql-item > a {
+  border: 0;
+  margin-left: -0.75em;
+  padding: 0;
+  background-color: transparent;
+  color: black;
+  text-align: left;
+}
+.site-footer .ql-list .ql-item > a:hover, .site-footer .ql-list .ql-item > a:focus {
+  text-decoration: underline;
+}
+.site-footer .ql-list .ql-item > a .txt-btn {
+  color: black;
+  font-family: "Avenir Book";
+  font-size: 14px;
+  text-align: left;
+  text-transform: none;
+  padding-left: 0.75em;
+}
+.site-footer .ql-list .ql-item > a .txt-btn:before {
+  content: "_ ";
+  margin-left: -0.75em;
+}
+
+.footer-copyright {
+  display: block !important;
+  clear: both !important;
+  font-family: "Avenir Book";
+  font-size: 14px;
+  color: #747b7e;
+}
+.footer-copyright a {
+  font-family: "Avenir Book";
+  font-size: 14px;
+  color: #747b7e;
+  text-decoration: none;
+}
+.footer-copyright a:hover, .footer-copyright a:focus {
+  text-decoration: underline;
+}
+
+.TwitterBlock_footer_block {
+  display: block;
+  float: left;
+  max-width: 510px;
+  margin-left: 20px;
+  position: relative;
+  top: -91px;
+  border: 1px solid #e5e5e5;
+  line-height: 0;
+}
+.TwitterBlock_footer_block * {
+  border-radius: 0 !important;
+}
+@media screen and (max-width: 1100px) {
+  .TwitterBlock_footer_block {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .TwitterBlock_footer_block {
+    max-width: 100%;
+    float: none;
+    top: 20px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+}

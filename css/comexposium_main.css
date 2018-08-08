@@ -1,0 +1,51 @@
+body {
+  background: white;
+}
+
+a:hover, a:focus, a:active {
+  color: #021736;
+}
+
+.global-wrapper {
+  background: white url(/theme/comexposium_desktop/img/motif-quadrillage.png) center center repeat-y;
+}
+@media all and (max-width: 1024px) {
+  .global-wrapper {
+    background: white url(/theme/comexposium_desktop/img/motif-quadrillage-tablette.png) center center repeat-y;
+    background-size: contain;
+  }
+}
+
+#main {
+  background-color: transparent;
+}
+
+#main .site-wrapper {
+  width: 1650px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.layout-2-col {
+  margin-bottom: 80px;
+}
+
+@media all and (max-width: 1440px) {
+  body.front #zone1 + .layout-2-col {
+    margin-top: -100px;
+  }
+}
+body.front .layout-2-col + #zone4 {
+  margin-top: 15px;
+}
+
+.page-rubric.rub-evenements .block-page.edito {
+  margin-bottom: 30px;
+}
+.page-rubric.rub-evenements .layout-2-col + #zone4 {
+  margin-top: 15px;
+}

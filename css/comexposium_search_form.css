@@ -1,0 +1,88 @@
+.global-search-form {
+  display: block;
+  float: left;
+  position: relative !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: 50px !important;
+  margin-left: 1.38889vw !important;
+}
+.global-search-form .gsf-fields {
+  display: none;
+  padding: 0 !important;
+  position: absolute !important;
+  top: -1px !important;
+  right: 100% !important;
+  width: 780px !important;
+  height: 106px !important;
+}
+.global-search-form .gsf-fields:after, .global-search-form .gsf-fields:before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-right: 55px;
+  position: absolute;
+  left: 0;
+  height: 10px;
+  background-color: #6dcce0;
+  z-index: 15;
+}
+.global-search-form .gsf-fields:before {
+  top: 0;
+}
+.global-search-form .gsf-fields:after {
+  bottom: -10px;
+}
+.global-search-form .gsf-fields .gsf-input-line {
+  position: relative;
+}
+.global-search-form .gsf-fields .gsf-input-line:before {
+  display: block;
+  content: '';
+  width: 55px;
+  height: 106px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: -55px;
+}
+.global-search-form.is-visible .gsf-fields {
+  display: block;
+}
+.global-search-form.is-visible button.gsf-trigger {
+  background-color: white !important;
+  background-position: center !important;
+  background-image: url("/theme/comexposium_desktop/img/picto-loupe-active.png") !important;
+  z-index: 15;
+}
+.global-search-form button[type="submit"] {
+  display: none !important;
+}
+.global-search-form input[type="search"] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 106px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
+button.gsf-trigger {
+  margin-top: 16px;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-image: url("/theme/comexposium_desktop/img/picto-loupe.png");
+}
+button.gsf-trigger:hover, button.gsf-trigger:focus {
+  background-color: transparent !important;
+  background-position: center !important;
+  background-image: url("/theme/comexposium_desktop/img/picto-loupe-active.png") !important;
+}
+
+.site-banner .gsf-trigger .icon {
+  display: none !important;
+}

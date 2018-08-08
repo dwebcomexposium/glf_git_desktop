@@ -1,0 +1,148 @@
+.block-page.search-result {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto 116px;
+}
+.block-page.search-result .global-search-form {
+  float: none;
+  width: 100%;
+  position: relative !important;
+  margin: 0 !important;
+}
+.block-page.search-result .global-search-form .gsf-fields {
+  width: auto !important;
+  height: auto !important;
+  display: block !important;
+  position: static !important;
+  margin: 0 auto;
+  top: auto !important;
+  right: auto !important;
+  background: transparent;
+}
+.block-page.search-result .global-search-form .gsf-fields:before, .block-page.search-result .global-search-form .gsf-fields:after {
+  display: none;
+}
+.block-page.search-result .global-search-form input[type="search"] {
+  width: 785px;
+  margin: 0 auto;
+  position: static;
+  height: 106px;
+  border: 10px solid #6dcce0;
+  border-width: 10px 0;
+}
+.block-page.search-result .gsf-label.visually-hidden {
+  position: static !important;
+  height: auto !important;
+  width: auto !important;
+  overflow: visible !important;
+  clip: auto !important;
+  font-family: "Montserrat Regular";
+  color: #6dcce0;
+  font-weight: normal;
+  font-size: 60px;
+  text-transform: uppercase;
+  display: block;
+  line-height: normal;
+  cursor: default;
+}
+.block-page.search-result .gsf-label.visually-hidden:after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 8px;
+  margin: 30px 0 40px -20px;
+  background: #6dcce0;
+}
+.block-page.search-result .gsf-label.visually-hidden .icon {
+  display: none;
+}
+.block-page.search-result .sr-main-title {
+  font-family: "Avenir BookOblique";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 1.8%;
+}
+.block-page.search-result .sr-term {
+  font-weight: normal;
+  color: #6dcce0;
+}
+.block-page.search-result .sr-nb-result {
+  font-size: 1em;
+  color: inherit;
+}
+.block-page.search-result .sr-group {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.block-page.search-result .sr-group-title {
+  width: 100%;
+  border: none;
+  font-size: 36px;
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  color: #6dcce0;
+  line-height: normal;
+  margin-left: 1.8%;
+}
+.block-page.search-result .sr-item {
+  width: calc(100% * 1 / 4 - 3.6%);
+  margin: 0 1.8% 30px;
+  padding: 0 0 30px;
+}
+.block-page.search-result .sr-item-img {
+  float: none;
+  border: 1px solid #cccccc;
+  margin: 0 auto 20px;
+}
+.block-page.search-result .sr-item-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: none;
+}
+.block-page.search-result .sr-item-title {
+  font-size: 18px;
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  color: #6dcce0;
+  line-height: normal;
+}
+.block-page.search-result .sr-item-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.block-page.search-result .sr-item-txt {
+  margin-top: 30px;
+  font-family: "Avenir Book";
+  font-size: 18px;
+  line-height: 24px;
+}
+.block-page.search-result .sr-main-title.no-result {
+  border: none;
+}
+.block-page.search-result .sr-group .sr-noresult-title {
+  display: none;
+}
+.block-page.search-result .sr-noresult {
+  margin: 0 1.8%;
+}
+.block-page.search-result .sr-noresult .sr-noresult-title {
+  width: 100%;
+  border: none;
+  font-size: 36px;
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  color: #6dcce0;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.block-page.search-result .sr-noresult .content-list-bullet li::before {
+  background: #6dcce0;
+}

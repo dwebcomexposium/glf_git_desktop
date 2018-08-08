@@ -1,0 +1,112 @@
+.grid-la-list {
+  max-width: 1100px;
+  margin: 80px auto;
+}
+.grid-la-list > * {
+  width: calc(100% * 1 / 4 - 40px - .01px);
+  margin-left: 40px;
+}
+.grid-la-list > *:first-child, .grid-la-list > *:nth-child(4n+1) {
+  margin-left: 20px;
+}
+.grid-la-list > *:nth-child(1n+5) {
+  margin-top: 60px;
+}
+.grid-la-list > *:nth-child(1n+5)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 10%;
+  width: 80%;
+  background-color: #e5e5e5;
+  height: 1px;
+}
+
+.gla-item {
+  padding: 0;
+  margin-bottom: .5em;
+  background-clip: padding-box;
+  box-shadow: none;
+}
+
+.gla-item > a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.gla-item-img {
+  margin-bottom: 27px;
+}
+
+.gla-item-content {
+  position: static;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  min-height: none;
+  min-height: initial;
+  display: block;
+  padding: 0;
+  text-align: left;
+  background: transparent;
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  color: #000000;
+}
+.gla-item-content .gla-item-btn {
+  display: none;
+}
+
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background: transparent;
+  color: #000000;
+}
+
+.gla-item-title {
+  margin: 0;
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #000000;
+}
+
+.gla-item > a:hover .gla-item-title,
+.gla-item > a:focus .gla-item-title {
+  color: #000000;
+}
+
+.gla-item-desc, .gla-item-content p:not(.gla-item-btn) {
+  font-size: 18px;
+  font-family: "Avenir Book";
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.gla-item-tag {
+  position: static;
+  top: auto;
+  left: auto;
+  padding: 0 8px;
+  background: #021736;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Montserrat ExtraBold";
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 18px;
+  line-height: 20px;
+}
+
+.gla-item-img + .gla-item-content {
+  position: relative;
+}
+
+.gla-item-img + .gla-item-content .gla-item-tag {
+  position: absolute;
+  top: -39px;
+}

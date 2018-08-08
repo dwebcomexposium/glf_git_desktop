@@ -1,0 +1,198 @@
+.la-item--first, #zone2 .la-list > .la-item {
+  display: block;
+  width: 100%;
+}
+.la-item--first .la-item-header > img, #zone2 .la-list > .la-item .la-item-header > img, .la-item--first .la-item-header > a, #zone2 .la-list > .la-item .la-item-header > a {
+  width: 720px;
+  max-width: 65.45455%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  margin-right: 0;
+}
+.la-item--first .la-item-header > a, #zone2 .la-list > .la-item .la-item-header > a {
+  display: block;
+}
+.la-item--first .la-item-title-wrap, #zone2 .la-list > .la-item .la-item-title-wrap {
+  position: relative;
+  z-index: 15;
+  padding-top: 35px;
+  width: 520px;
+  max-width: 90%;
+  display: block;
+}
+.la-item--first .la-item-content, #zone2 .la-list > .la-item .la-item-content {
+  margin-top: 15px;
+  width: 330px;
+  max-width: 30%;
+}
+.la-item--first .la-item-title, #zone2 .la-list > .la-item .la-item-title {
+  margin-top: 0;
+  font-family: "Montserrat Regular";
+  font-size: 36px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: inline;
+  padding-right: 12px;
+}
+.la-item--first .la-item-title a, #zone2 .la-list > .la-item .la-item-title a {
+  color: black;
+  font-size: 36px;
+}
+
+.main-title-with-link {
+  border-bottom: 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-title-with-link .block-title {
+  color: #021736;
+  letter-spacing: 1px;
+  font-family: "Montserrat Light";
+  font-size: 60px;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.main-title-with-link .la-main-title {
+  display: block;
+  max-width: 100%;
+  color: #021736;
+  letter-spacing: 1px;
+  font-family: "Montserrat Light";
+  font-size: 60px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#zone2 .list-articles {
+  width: 1100px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#zone2 .la-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  display: block;
+}
+#zone2 .la-list .has-2col {
+  display: block;
+}
+#zone2 .intro + .la-list {
+  margin-top: 40px;
+}
+#zone2 .la-column {
+  display: block;
+  padding-left: 0;
+  margin-top: 60px;
+}
+#zone2 .la-column:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#zone2 .la-column > .la-item {
+  display: block;
+  float: left;
+  width: 25%;
+  margin-top: 0;
+}
+#zone2 .la-column > .la-item .la-item-content, #zone2 .la-column > .la-item .la-item-header {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#zone2 .la-column > .la-item .la-item-img {
+  margin-right: 0;
+}
+#zone2 .la-column > .la-item + .la-item {
+  margin-top: 60px;
+  position: relative;
+}
+#zone2 .la-column > .la-item + .la-item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 10%;
+  width: 80%;
+  background-color: #e5e5e5;
+  height: 1px;
+}
+#zone2 .la-column > .la-item + .la-item:nth-child(1), #zone2 .la-column > .la-item + .la-item:nth-child(2), #zone2 .la-column > .la-item + .la-item:nth-child(3), #zone2 .la-column > .la-item + .la-item:nth-child(4) {
+  margin-top: 0;
+}
+#zone2 .la-column > .la-item + .la-item:nth-child(1):before, #zone2 .la-column > .la-item + .la-item:nth-child(2):before, #zone2 .la-column > .la-item + .la-item:nth-child(3):before, #zone2 .la-column > .la-item + .la-item:nth-child(4):before {
+  display: none;
+}
+
+.la-item-tag {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Montserrat ExtraBold";
+  background-color: #021736;
+}
+
+.la-item-title {
+  font-family: "Montserrat Regular";
+  text-transform: none;
+  color: black;
+  font-size: 36px;
+}
+.la-item-title > a {
+  color: black;
+}
+
+.la-item-img {
+  margin-bottom: 0 !important;
+}
+
+.la-item-content .la-item-tag {
+  margin-bottom: 10px;
+}
+
+.la-item-header + .la-item-content {
+  overflow: visible;
+  position: relative;
+  z-index: 50;
+}
+.la-item-header + .la-item-content .la-item-tag {
+  position: relative !important;
+  top: -15px;
+  z-index: 50;
+}
+.la-item-header + .la-item-content .la-item-tag + * {
+  margin-top: -10px;
+}
+.la-item-header + .la-item-content .la-item-title:first-child {
+  margin-top: 10px;
+}
+
+.la-item {
+  border-bottom: 0;
+}
+
+.la-item-content {
+  font-family: "Avenir Book";
+  font-size: 18px;
+}
+.la-item-content > .la-item-desc {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.la-item-content .link-read-more {
+  display: none !important;
+}
+
+.la-column .la-item-tag {
+  display: table;
+}

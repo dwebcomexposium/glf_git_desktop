@@ -1,0 +1,187 @@
+#main {
+  overflow: hidden;
+}
+
+.exhibitions-highlights {
+  width: 1800px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exhibitions-highlights .slick-list {
+  padding-top: 15px;
+  border-right: 1px solid #e5e5e5;
+  left: -12px;
+}
+@media screen and (max-width: 1800px) {
+  .exhibitions-highlights .slick-list {
+    left: 0;
+  }
+}
+.exhibitions-highlights .main-title-with-link {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exhibitions-highlights .la-list {
+  height: 420px;
+}
+.exhibitions-highlights .la-list:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 10px;
+  width: 5px;
+  height: 15px;
+  background: white;
+  z-index: 1;
+}
+.exhibitions-highlights .la-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1800px) {
+  .exhibitions-highlights .la-list {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.exhibitions-highlights .la-item {
+  width: calc(16.66667% - 1px);
+  min-width: 275px;
+  float: left;
+  min-height: 420px;
+  padding-top: 20px;
+  overflow: visible;
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  background: white;
+}
+@media screen and (max-width: 1800px) {
+  .exhibitions-highlights .la-item {
+    width: 25%;
+  }
+}
+.exhibitions-highlights .la-item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  border-radius: 50%;
+  height: 24px;
+  top: -12px;
+  left: -12px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+}
+.exhibitions-highlights .la-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  border-radius: 50%;
+  height: 12px;
+  top: -5px;
+  left: -5px;
+  background-color: #e5e5e5;
+}
+.exhibitions-highlights .la-item:nth-child(6n) {
+  border-right: 1px solid #e5e5e5;
+}
+.exhibitions-highlights .la-item:nth-child(6n) + .la-item {
+  border-left: 0;
+}
+.exhibitions-highlights .la-item + .la-item {
+  margin-top: 0;
+}
+.exhibitions-highlights .la-item-content {
+  overflow: visible;
+  padding: 15px;
+}
+.exhibitions-highlights .la-item-title {
+  font-family: 'Montserrat ExtraBold';
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-bottom: 12px;
+  position: relative;
+  text-transform: uppercase;
+}
+.exhibitions-highlights .la-item-title a:after {
+  content: "";
+  display: block;
+  background-color: #9d1c48;
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  left: -25px;
+  bottom: 90px;
+}
+.exhibitions-highlights .la-item-title a > span {
+  display: block;
+  clear: both;
+  margin-top: 30px;
+  position: relative;
+  font-family: 'Montserrat UltraLight';
+  font-size: 24px;
+  text-transform: none;
+  height: 2.8em;
+  overflow: hidden;
+}
+.exhibitions-highlights .la-item-desc {
+  font-family: 'Avenir Book';
+  font-size: 14px;
+  min-height: 3em;
+  height: 5em;
+}
+.exhibitions-highlights .la-item-btn {
+  margin-top: 0;
+}
+.exhibitions-highlights .la-item-btn a {
+  font-family: 'Montserrat ExtraBold';
+  color: #9d1c48;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: block !important;
+}
+.exhibitions-highlights .la-item-btn a:hover, .exhibitions-highlights .la-item-btn a:focus {
+  color: black;
+}
+.exhibitions-highlights .slick-track {
+  min-width: 1650px;
+}
+@media screen and (max-width: 1800px) {
+  .exhibitions-highlights .slick-track {
+    min-width: 0;
+  }
+}
+.exhibitions-highlights .slick-prev, .exhibitions-highlights .slick-next {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  position: absolute;
+  top: 15px;
+  z-index: 150;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.exhibitions-highlights .slick-prev:hover, .exhibitions-highlights .slick-prev:focus, .exhibitions-highlights .slick-next:hover, .exhibitions-highlights .slick-next:focus {
+  border-color: #888888;
+}
+.exhibitions-highlights .slick-prev {
+  left: -16px;
+  background-image: url("/theme/comexposium_desktop/img/slider-arrow-left.png");
+}
+.exhibitions-highlights .slick-next {
+  right: -25px;
+  background-image: url("/theme/comexposium_desktop/img/slider-arrow-right.png");
+}

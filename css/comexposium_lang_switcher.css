@@ -1,0 +1,45 @@
+.lang-switcher {
+  display: block;
+  width: 75px;
+  width: 4.16667vw;
+  min-width: 22px;
+  height: 106px;
+  right: -75px;
+  right: -4.16667vw;
+  background-color: #d5d7d8;
+  max-width: 5%;
+}
+
+.ls-trigger {
+  padding-top: 0;
+  margin-top: 39px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ls-trigger:after {
+  display: block;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  width: 17px;
+  height: 9px;
+  background-image: url("/theme/comexposium_desktop/img/ui-arrow-down.png");
+}
+.ls-trigger:focus {
+  outline: 0;
+}
+
+.ls-lang-link {
+  text-align: center;
+  background-color: #d5d7d8;
+}
+.ls-lang-link:hover, .ls-lang-link:focus {
+  background-color: #d5d7d8;
+}
+.ls-lang-link:hover abbr, .ls-lang-link:focus abbr {
+  border-bottom-style: solid;
+}

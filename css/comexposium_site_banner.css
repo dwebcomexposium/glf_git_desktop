@@ -1,0 +1,51 @@
+.site-banner {
+  background-color: transparent;
+}
+.site-banner .inside {
+  padding-top: 0;
+  width: 1650px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 55;
+}
+
+.site-banner-site-banner-title {
+      display: block;
+    font-size: 0;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    background-image: url(/theme/glf_git_desktop/img/logo-glf.png);
+    height: 68px;
+    border: none;
+    left: 0px;
+    top: 20px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    max-width: 20%;
+    z-index: 10;
+}
+.site-banner-site-banner-title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*body.article_list{
+	.site-banner{
+		position: relative;
+		padding-bottom: 15px;
+		&:after{
+			content: "";
+			display: block;
+			position: absolute;
+			height: 10px;
+			width: 100%;
+			background-color: #021736;
+			z-index: 50;
+		}
+	}
+}*/

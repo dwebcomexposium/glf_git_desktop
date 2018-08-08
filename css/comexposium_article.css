@@ -1,0 +1,537 @@
+.article-wrapper.has-at-publication .at-publication {
+  position: absolute;
+}
+.article-wrapper.has-at-publication .article-title {
+  margin-bottom: 150px;
+}
+
+.article-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.at-illust {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+}
+
+.at-content {
+  max-width: 70%;
+  margin-top: 40px;
+}
+
+.at-illust + .at-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 0;
+}
+
+.at-theme {
+  display: table;
+  color: #ffffff;
+  background: #f05076;
+  font-size: 14px;
+  font-family: "Montserrat ExtraBold";
+  line-height: 20px;
+  padding: 0 5px;
+  width: auto;
+}
+
+.at-illust + .at-content > .at-theme {
+  position: static;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.at-main-title {
+  display: block;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  font-family: "Montserrat Light";
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+  padding: 0 5px;
+  clear: both;
+}
+
+.at-illust + .at-content > .at-main-title {
+  display: inline;
+}
+
+.at-content:first-child {
+  margin-bottom: 0.2em;
+}
+
+.at-publication {
+  padding: 0;
+  border: none;
+  margin: 50px 0 0 20px;
+}
+.at-publication:before {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #f05076;
+  margin-bottom: 20px;
+}
+
+.at-publication-item {
+  display: block;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Avenir BookOblique";
+}
+
+.at-publication-author {
+  font-family: "Avenir Black";
+  font-size: 16px;
+}
+
+.article-content {
+  clear: both;
+  margin: 0 12px;
+  max-width: 800px;
+  line-height: normal;
+}
+.article-content p {
+  margin-top: 1em;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Avenir Book";
+}
+.article-content p:first-child {
+  margin-top: 0;
+}
+.article-content p.txtcenter {
+  text-align: center;
+}
+.article-content p.txtLEFT, .article-content p.txtleft {
+  text-align: left;
+}
+.article-content p.txtRIGHT, .article-content p.txtright {
+  text-align: right;
+}
+.article-content h2, .article-content .h2-like {
+  line-height: 1em;
+  border: none;
+  margin: 50px 0 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: "Avenir Black";
+  font-weight: normal;
+}
+.article-content h2 + *, .article-content .h2-like + * {
+  margin-top: 35px;
+}
+.article-content h2:first-child, .article-content .h2-like:first-child {
+  margin-top: 0;
+}
+.article-content h3, .article-content .h3-like {
+  line-height: 1em;
+  margin: 40px 0 0;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-size: 36px;
+}
+.article-content h3 + *, .article-content .h3-like + * {
+  margin-top: 20px;
+}
+.article-content h3:first-child, .article-content .h3-like:first-child {
+  margin-top: 0;
+}
+.article-content h4, .article-content .h4-like {
+  color: #021736;
+  line-height: 1em;
+  font-size: 24px;
+  font-family: "Avenir Black";
+  margin: 30px 0 0;
+}
+.article-content h4 + *, .article-content .h4-like + * {
+  margin-top: 30px;
+}
+.article-content h4:first-child, .article-content .h4-like:first-child {
+  margin-top: 0;
+}
+.article-content [name^="eztoc_"]:first-child + h2,
+.article-content [name^="eztoc_"]:first-child + .h2-like,
+.article-content [name^="eztoc_"]:first-child + h3,
+.article-content [name^="eztoc_"]:first-child + .h3-like,
+.article-content [name^="eztoc_"]:first-child + h4,
+.article-content [name^="eztoc_"]:first-child + .h4-like {
+  margin-top: 0;
+}
+.article-content ul, .article-content ol {
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Avenir Book";
+}
+.article-content ul li, .article-content ol li {
+  margin-bottom: 0.35em;
+}
+.article-content ul > li:before, .article-content ol > li:before {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+.article-content ul li::before {
+  background: transparent;
+  content: '_ ';
+  height: auto;
+  width: auto;
+  margin: 0 5px 0 0;
+  vertical-align: baseline;
+}
+.article-content ul ul, .article-content ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.article-content ul ul li::before {
+  content: "_ ";
+}
+.article-content figcaption {
+  position: absolute;
+  max-width: calc(275px - 40px);
+  margin-top: 20px;
+  color: #021736;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+}
+.article-content figcaption strong {
+  font-family: "Avenir Black";
+}
+.article-content figcaption .ezxmltext-field p {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+  text-align: inherit;
+}
+.article-content figcaption:before {
+  display: block;
+  content: '';
+  width: 9px;
+  height: 1px;
+  margin-bottom: 10px;
+}
+.article-content > figure {
+  max-width: 550px;
+}
+.article-content figure {
+  position: relative;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.article-content figure.fl {
+  margin-right: 40px;
+  margin-left: -12px;
+}
+@media all and (max-width: 768px) {
+  .article-content figure.fl {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.article-content figure.fl figcaption {
+  right: 100%;
+  margin-right: 10px;
+  text-align: right;
+  margin-top: 0;
+  max-width: none;
+  top: 0;
+}
+.article-content figure.fl figcaption:before {
+  float: right;
+}
+.article-content figure.fr {
+  margin-right: -288px;
+  margin-left: 40px;
+}
+@media all and (max-width: 1024px) {
+  .article-content figure.fr {
+    margin-right: -93px;
+  }
+}
+@media all and (max-width: 768px) {
+  .article-content figure.fr {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.article-content figure.fr figcaption {
+  right: calc(50% - 288px);
+  margin-left: 40px;
+  text-align: left;
+}
+.article-content figure:not(.fl):not(.fr) {
+  clear: both;
+}
+.article-content .article-focus, .article-content .focus1 {
+  position: relative;
+  margin: 40px 0;
+  left: -20px;
+  box-sizing: content-box;
+  max-width: 100%;
+  width: calc(100% + 20px);
+  padding: 1em 20px;
+  color: #FFF;
+  text-align: justify;
+  border: none;
+  background: #021736;
+  clear: both;
+}
+.article-content .article-focus .af-content, .article-content .focus1 .af-content {
+  padding: 0 20px;
+}
+.article-content .article-focus .af-title, .article-content .focus1 .af-title {
+  color: white;
+  font-family: "Avenir Black";
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.article-content .article-focus a, .article-content .focus1 a {
+  color: white;
+}
+.article-content .article-focus [class^="btn"], .article-content .article-focus .btn, .article-content .focus1 [class^="btn"], .article-content .focus1 .btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: none;
+}
+.article-content .article-focus [class^="btn"]:hover, .article-content .article-focus [class^="btn"]:active, .article-content .article-focus [class^="btn"]:focus, .article-content .article-focus .btn:hover, .article-content .article-focus .btn:active, .article-content .article-focus .btn:focus, .article-content .focus1 [class^="btn"]:hover, .article-content .focus1 [class^="btn"]:active, .article-content .focus1 [class^="btn"]:focus, .article-content .focus1 .btn:hover, .article-content .focus1 .btn:active, .article-content .focus1 .btn:focus {
+  color: white;
+}
+.article-content blockquote {
+  position: relative;
+  margin: 40px 45px 40px 100px;
+  padding: 0;
+  background: transparent;
+  color: #000000;
+}
+.article-content blockquote p {
+  border-left: none;
+  padding-left: 0;
+  line-height: normal;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+}
+.article-content blockquote strong {
+  display: block;
+  font-style: normal;
+  margin-top: 20px;
+}
+.article-content blockquote .icon-quote {
+  display: none;
+}
+.article-content iframe {
+  display: block;
+  margin: 40px auto;
+}
+.article-content iframe:first-child {
+  margin-top: 0;
+}
+.article-content pre {
+  margin-top: 1em;
+}
+.article-content a.lien1 {
+  text-decoration: underline;
+}
+.article-content a.lien1::before {
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+  width: 22px;
+  height: 28px;
+  margin-right: 11px;
+  background: url(/theme/comexposium_desktop/img/picto-lien1.png) 0 0 no-repeat;
+}
+.article-content a.lien2, .article-content a.lien3 {
+  display: inline-block;
+  padding: 15px 20px;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  color: #021736;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #021736;
+}
+.article-content a.lien2:hover, .article-content a.lien3:hover {
+  color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+.article-content a.lien3 {
+  color: #fff;
+  background-color: #021736;
+}
+.article-content table {
+  max-width: 800px;
+  border: none;
+  margin: 2em 0;
+}
+.article-content table:first-child {
+  margin-top: 0;
+}
+.article-content table p {
+  text-align: inherit;
+}
+.article-content table thead tr td, .article-content table thead tr th {
+  border: 1px solid #d4d4d5;
+  border-width: 0 0 1px 0;
+  padding: 12px 0 12px 22px;
+}
+.article-content table thead tr td:first-child, .article-content table thead tr th:first-child {
+  padding-left: 22px;
+}
+.article-content table thead tr td:last-child, .article-content table thead tr th:last-child {
+  padding-right: 22px;
+}
+.article-content table tbody tr {
+  border: none;
+  background: white;
+                /*&.ligne1, &:first-child{
+                  color:white;
+
+                  td{
+                    border: none;
+                  }
+                }*/
+}
+.article-content table tbody tr td {
+  border: 1px solid #d4d4d5;
+  border-width: 0 0 1px 0;
+  padding: 12px 0 12px 22px;
+}
+.article-content table tbody tr td:first-child {
+  padding-left: 22px;
+}
+.article-content table tbody tr td:last-child {
+  padding-right: 22px;
+}
+.article-content .list-articles {
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+.article-content .list-articles .inside {
+  margin: 0 -12px;
+}
+.article-content .list-articles .block-title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0;
+  color: #021736;
+  font-family: "Montserrat Light";
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 0;
+}
+.article-content .list-articles .la-item {
+  display: block;
+  float: left;
+  width: 33.33%;
+  margin-top: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.article-content .list-articles .la-item-title {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 1em 0;
+}
+.article-content .list-articles .la-item-content {
+  position: relative;
+  clear: both;
+  overflow: inherit;
+}
+.article-content .list-articles .la-item-desc {
+  font-size: 18px;
+  text-align: left;
+}
+.article-content .list-articles .la-item-tag {
+  left: 0;
+  top: -12px;
+}
+.article-content .list-articles .la-img {
+  margin: 0;
+}
+
+.article-content a[target="_self"], .ep-intro a[target="_self"] {
+  text-decoration: underline;
+}
+
+.article-intro {
+  max-width: 800px;
+  margin: 38px 12px;
+  padding: 0;
+  position: relative;
+}
+.article-intro p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-size: 24px;
+  font-family: "Avenir Medium";
+  line-height: 32px;
+}
+
+.block-page.article-navigation {
+  display: none;
+}
+
+.article-content table figure.fl {
+  margin-left: 0 !important;
+}
+.article-content table figure.fr {
+  margin-right: 0 !important;
+}
+.article-content table figure.center {
+  width: auto;
+  max-width: none;
+}
+.article-content table figure.center img {
+  display: block;
+  margin: 0 auto;
+}
+.article-content table figure figcaption {
+  position: static;
+}
+
+body.node52515 .article-wrapper.has-at-publication .at-publication {
+  position: static;
+}
+body.node52515 .article-wrapper.has-at-publication .article-title {
+  margin-bottom: 0;
+}
+body.node52515 figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+body.node52515 .article-content figcaption {
+  position: static;
+}

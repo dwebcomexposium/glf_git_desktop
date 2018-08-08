@@ -1,0 +1,285 @@
+.HomeSlider {
+  display: block;
+  position: relative;
+}
+@media all and (max-width: 1440px) {
+  .HomeSlider {
+    padding-bottom: 120px;
+  }
+}
+@media all and (max-width: 1100px) {
+  .HomeSlider {
+    padding-bottom: 280px;
+  }
+}
+
+.HomeSlider-slide-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.HomeSlider-slide {
+  display: block;
+  position: relative;
+}
+
+.HomeSlider-slide-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.HomeSlider-slide-image.HS-si-mobile {
+  display: none;
+}
+
+.HomeSlider-slide-inner-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HomeSlider-slide-content {
+  display: block;
+  width: 1100px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.HomeSlider-slide-title, .HomeSlider-slide-description {
+  color: white;
+  width: 460px;
+  max-width: 100%;
+}
+
+.HomeSlider-slide-title {
+  width: 500px;
+  font-family: 'Montserrat Light';
+  font-size: 48px;
+  font-size: 0.02667 vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
+@media all and (max-width: 1800px) {
+  .HomeSlider-slide-title {
+    font-size: 3.33vw;
+  }
+}
+@media all and (max-width: 1440px) {
+  .HomeSlider-slide-title {
+    font-size: 2.5vw;
+  }
+}
+@media all and (max-width: 1300px) {
+  .HomeSlider-slide-title {
+    font-size: 2.33vw;
+  }
+}
+
+.HomeSlider-slide-description {
+  font-family: 'Avenir Light';
+  font-size: 18px;
+  line-height: 24px;
+}
+@media all and (max-width: 1440px) {
+  .HomeSlider-slide-description {
+    font-size: 1.25vw;
+    line-height: 1.67vw;
+  }
+}
+
+.HomeSlider-slide-title + .HomeSlider-slide-description {
+  margin-top: 25px;
+}
+
+.HomeSlider-slide-link-button {
+  float: left;
+  display: block;
+  margin-top: 30px;
+  padding: 12px 19px;
+  color: white;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+  /*&.active-pink{
+	  &:hover, &:focus{
+	  	color: $Rose_Talents;
+	  	border-color: $Rose_Talents;
+	  }
+  }*/
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  box-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+.HomeSlider-slide-link-button:hover, .HomeSlider-slide-link-button:focus {
+  color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.HomeSlider-nav-outer-wrapper {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 40px;
+  left: 0;
+}
+@media all and (max-width: 1740px) {
+  .HomeSlider-nav-outer-wrapper {
+    position: absolute;
+    top: 60%;
+    bottom: auto;
+    left: auto;
+  }
+}
+@media all and (max-width: 1440px) {
+  .HomeSlider-nav-outer-wrapper {
+    top: 45%;
+  }
+}
+@media all and (max-width: 1430px) {
+  .HomeSlider-nav-outer-wrapper {
+    top: 42%;
+  }
+}
+@media all and (max-width: 1300px) {
+  .HomeSlider-nav-outer-wrapper {
+    top: 40%;
+  }
+}
+@media all and (max-width: 1200px) {
+  .HomeSlider-nav-outer-wrapper {
+    top: 35%;
+  }
+}
+@media all and (max-width: 1100px) {
+  .HomeSlider-nav-outer-wrapper {
+    top: 30%;
+  }
+}
+
+.HomeSlider-nav {
+  width: 1100px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.HomeSlider-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.HomeSlider-nav-link-group {
+  display: block;
+  float: left;
+  width: 25%;
+  position: relative;
+}
+.HomeSlider-nav-link-group.selected:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 21px 22px 21px;
+  border-color: transparent transparent #f4f4f5 transparent;
+  position: absolute;
+  top: -22px;
+  left: 35px;
+}
+.HomeSlider-nav-link-group.selected .HomeSlider-nav-link-group-inner-wrapper {
+  background-color: #f4f4f5;
+}
+
+html.flexbox .HomeSlider-nav,
+html.flexbox .HomeSlider-nav-link-group {
+  display: flex;
+}
+
+.HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-title:focus {
+  color: #3dbb9e;
+}
+.HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #3dbb9e;
+}
+
+.HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-title:focus {
+  color: #9d1368;
+}
+.HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #9d1368;
+}
+
+.HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-title:focus {
+  color: #ec9921;
+}
+.HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #ec9921;
+}
+
+.HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-title:focus {
+  color: #ef5075;
+}
+.HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #ef5075;
+}
+
+.HomeSlider-nav-link-group-inner-wrapper {
+  background-color: white;
+  padding-top: 27px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  position: relative;
+  min-height: 215px;
+}
+.HomeSlider-nav-link-group-inner-wrapper:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  left: -10px;
+  top: 78px;
+}
+
+.HomeSlider-nav-link-group + .HomeSlider-nav-link-group .HomeSlider-nav-link-group-inner-wrapper {
+  margin-left: 1px;
+}
+
+.HomeSlider-nav-link-group-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  height: 5em;
+  font-family: 'Montserrat ExtraBold';
+  line-height: 20px;
+}
+
+.HomeSlider-nav-link-group-subpage-link {
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  left: -12px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+}
+.HomeSlider-nav-link-group-subpage-link:before {
+  content: "_ ";
+}
+.HomeSlider-nav-link-group-subpage-link:hover, .HomeSlider-nav-link-group-subpage-link:focus {
+  text-decoration: underline;
+}
