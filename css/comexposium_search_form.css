@@ -54,7 +54,7 @@
 .global-search-form.is-visible button.gsf-trigger {
   background-color: white !important;
   background-position: center !important;
-  background-image: url("/theme/comexposium_desktop/img/picto-loupe-active.png") !important;
+  background-image: url("/theme/glf_git_desktop/img/picto-loupe-active.png") !important;
   z-index: 15;
 }
 .global-search-form button[type="submit"] {
@@ -75,12 +75,12 @@ button.gsf-trigger {
   margin-top: 16px;
   background-repeat: no-repeat !important;
   background-position: center;
-  background-image: url("/theme/comexposium_desktop/img/picto-loupe.png");
+  background-image: url("/theme/glf_git_desktop/img/picto-loupe.png");
 }
 button.gsf-trigger:hover, button.gsf-trigger:focus {
   background-color: transparent !important;
   background-position: center !important;
-  background-image: url("/theme/comexposium_desktop/img/picto-loupe-active.png") !important;
+  background-image: url("/theme/glf_git_desktop/img/picto-loupe-active.png") !important;
 }
 
 .site-banner .gsf-trigger .icon {

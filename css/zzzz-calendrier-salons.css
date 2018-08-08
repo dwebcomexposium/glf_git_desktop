@@ -280,7 +280,7 @@ body.page-salons .layout-2-col #zone2 .catal-nav-ex, body.event .layout-2-col #z
     font-weight: normal;
     text-transform: uppercase;
     padding-left: 32px;
-    background-image: url("/theme/comexposium_desktop/img/picto-loupe-calendrier.png");
+    background-image: url("/theme/glf_git_desktop/img/picto-loupe-calendrier.png");
     background-position: 6px 50% !important;
     background-repeat: no-repeat !important;
     background-size: 18px auto; }
@@ -341,7 +341,7 @@ body.page-salons .layout-2-col #zone2 .catal-ex-details .catal-ed-main, body.eve
     body.page-salons .layout-2-col #zone2 .catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-url, body.event .layout-2-col #zone2 .catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-url {
       margin-bottom: 2em;
       padding-left: 28px;
-      background-image: url("/theme/comexposium_desktop/img/picto-link.png");
+      background-image: url("/theme/glf_git_desktop/img/picto-link.png");
       background-position: 6px 50% !important;
       background-repeat: no-repeat !important;
       background-size: 15px auto; }

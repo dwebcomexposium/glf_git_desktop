@@ -7,11 +7,11 @@ a:hover, a:focus, a:active {
 }
 
 .global-wrapper {
-  background: white url(/theme/comexposium_desktop/img/motif-quadrillage.png) center center repeat-y;
+  background: white url(/theme/glf_git_desktop/img/motif-quadrillage.png) center center repeat-y;
 }
 @media all and (max-width: 1024px) {
   .global-wrapper {
-    background: white url(/theme/comexposium_desktop/img/motif-quadrillage-tablette.png) center center repeat-y;
+    background: white url(/theme/glf_git_desktop/img/motif-quadrillage-tablette.png) center center repeat-y;
     background-size: contain;
   }
 }
